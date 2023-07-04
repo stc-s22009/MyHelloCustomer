@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
             if(id == R.id.btClick) {
                 String inputStr = input.getText().toString();
                 String inputStr_s = editText.getText().toString();
-                output.setText(inputStr + "にお住まいの" + inputStr_s + "さん、こんにちは！");
+                output.setText(inputStr_s + "にお住まいの" + inputStr + "さん、こんにちは！");
             }else if(id == R.id.btName_clear) {
                 input.setText("");
                 output.setText("");
